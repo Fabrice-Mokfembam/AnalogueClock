@@ -1,0 +1,130 @@
+body{
+  background: #dde1e7;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+.clock-border{
+  width: 60vw;
+  height: 90vh;
+  margin: 2%  auto;
+  background-color: rgb(250, 252, 252);
+  border-radius: 50%;
+  border: 10px  solid black;
+  box-shadow: inset 5px 5px 5px #ffffff, 
+                       inset -5px  -5px  -5px  #f57e7e70;
+  position: relative;                     
+}
+.number{
+  font-size: xxx-large;
+}
+#number-12{
+  position: absolute;
+  left: 48%;
+  top:0px;
+}
+
+#number-1{
+  position: absolute;
+  right: 28%;
+  top:40px;
+}
+#number-2{
+  position: absolute;
+  right: 10%;
+  top:130px;
+}
+#number-3{
+  position: absolute;
+  right:30px;
+  top:43%;
+}
+#number-4{
+  position: absolute;
+  right: 10%;
+  bottom:130px;
+}
+#number-5{
+  position: absolute;
+  right: 28%;
+  bottom:40px;
+}
+#number-6{
+  position: absolute;
+  left: 48%;
+  bottom:0px;
+}
+#number-7{
+  position: absolute;
+  left: 28%;
+  bottom:40px;
+}
+#number-8{
+  position: absolute;
+  left: 10%;
+  bottom:130px;
+}
+#number-9{
+  position: absolute;
+  left: 30px;
+  top:43%;
+}
+#number-10{
+  position: absolute;
+  left: 10%;
+  top:130px;
+}
+#number-11{
+  position: absolute;
+  left: 28%;
+  top:40px;
+}
+.circle{
+  position: absolute;
+  width: 70px;
+  height:70px;
+  background-color: black;
+  border-radius: 50%;
+  top: 42%;
+  left: 45%;
+}
+#minutes-hand{
+    width: 12px;
+    height: 180px;
+    background: rgb(75, 72, 218);
+    position: absolute;
+    left:48.5%;
+    top: 90px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    transform-origin: bottom  center;
+}
+#hour-hand{
+    width: 14px;
+    height: 110px;
+    background: rgb(162, 223, 180);
+    position: absolute;
+    left:48%;
+    top: 170px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    transform-origin: bottom  center;
+}
+#seconds-hand{
+    width: 5px;
+    height: 200px;
+    background: rgb(250, 4, 4);
+    position: absolute;
+    left:50%;
+    top: 90px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    transform-origin: bottom  center;
+}
+#name{
+  position: absolute;
+  font-size: xx-large;
+  bottom: 160px;
+  left: 38%;
+}
